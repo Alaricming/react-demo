@@ -16,7 +16,8 @@ export default class BasicStoreTest extends Component {
   };
 
   componentDidMount(nextProps) {
-    // this.setState({ ...Store.getState() }, console.log(this.state));
+    this.setState({ ...Store.getState() }, console.log(this.state));
+    
     this.unSubscribe = Store.subscribe(() => {
       console.log(Store.getState());
       this.setState({ ...Store.getState() }, console.log(this.state));

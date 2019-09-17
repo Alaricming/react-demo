@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+// import logo from "./logo.svg";
+// import "./App.css";
 import BasicStoreTest from "./component/basicStoreTest";
 
 function App() {
@@ -11,12 +11,4 @@ function App() {
   );
 }
 
-    // render() {
-    //     return (
-    //         <div className="App">
-    //             <ArrowFunciton onClick={this.onClick} text="clickme"></ArrowFunciton>
-    //             <TestState />
-    //         </div>
-    //     );
-    // }
-  
+export default App;
