@@ -11,12 +11,12 @@ function App() {
   );
 }
 
-    render() {
-        return (
-            <div className="App">
-                <ArrowFunciton onClick={this.onClick} text="clickme"></ArrowFunciton>
-                <TestState />
-            </div>
-        );
-    }
-}
+    // render() {
+    //     return (
+    //         <div className="App">
+    //             <ArrowFunciton onClick={this.onClick} text="clickme"></ArrowFunciton>
+    //             <TestState />
+    //         </div>
+    //     );
+    // }
+  
