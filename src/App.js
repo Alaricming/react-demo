@@ -11,4 +11,12 @@ function App() {
   );
 }
 
-export default App;
+    render() {
+        return (
+            <div className="App">
+                <ArrowFunciton onClick={this.onClick} text="clickme"></ArrowFunciton>
+                <TestState />
+            </div>
+        );
+    }
+}
